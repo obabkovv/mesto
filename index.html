@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="content">
+            <header class="header">
+                <div class="header__logo"></div>
+            </header>
+            <div class="profile">
+                <div class="profile__avatar"></div>
+                <div class="profile__info">
+                    <div class="profile__namebox">
+                        <div class="profile__name">Жак-Ив Кусто </div>
+                        <button class="profile__edit_button"></button>
+                    </div>
+                    <p class="profile__desc">Исследователь океана</p>
+                </div>
+                <button class="profile__add_button"></button>
+            </div>
+            <div class="elements">
+                <div class="element">
+                    <img class="element__image" src="./images/karachaevsk.jpg" alt="Карачаевск">
+                    <div class="element__description">
+                        <div class="element__title">Карачаевск</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/elbrus.jpg" alt="Эльбрус">
+                    <div class="element__description">
+                        <div class="element__title">Гора Эльбрус</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/dombai.jpg" alt="Домбай">
+                    <div class="element__description">
+                        <div class="element__title">Домбай</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/elbrus.jpg" alt="Эльбрус">
+                    <div class="element__description">
+                        <div class="element__title">Гора Эльбрус</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/dombai.jpg" alt="Домбай">
+                    <div class="element__description">
+                        <div class="element__title">Домбай</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+                <div class="element">
+                    <img class="element__image" src="./images/karachaevsk.jpg" alt="Карачаево-Ч...">
+                    <div class="element__description">
+                        <div class="element__title">Карачаево-Ч...</div>
+                        <img class="element__like" src="images/like_icon.svg">
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                @2021 Mesto Russia
+            </footer>
+        
+        <div class="overlay" hidden="true"></div>
+        <div class="form" hidden="true">
+            <p class="form__name" >Редактировать профиль</p>
+            <input type="text" class="form__profile_name" value="" >
+            <input type="text" class="form__profile_desc" value="" > 
+            <button class="form__button_save">Сохранить</button>
+            <button class="form__button_close"></button>
+        </div>
+    </div>
+</div>
+    </div>
+ <script src="./scripts/mesto.js"></script> 
+</body>

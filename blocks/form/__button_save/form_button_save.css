@@ -1,0 +1,13 @@
+.form__button_save{
+    width: 83.2%;
+    height: 50px;
+    background: #000000;
+    border-radius: 2px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-top: 48px;
+}
+.form__button_save:hover{
+    opacity: 0.8;
+}

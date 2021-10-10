@@ -1,0 +1,18 @@
+.footer{
+   color: #545454;
+   align-self: flex-start;
+   margin-bottom: 60px;
+   margin-top: 66px;
+   font-size: 18px;
+   line-height: 22px;
+}
+@media screen and (max-width: 650px){
+   .footer{
+       max-width: 282px;
+       font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 36px;
+      margin-top: 48px;
+      margin-left: 10%;
+   }
+}

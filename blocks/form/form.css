@@ -1,0 +1,22 @@
+.form{
+    position: absolute;
+    top: 195px; 
+    left: 50%;
+    margin-left: -215px;
+    background-color: #ffffff;
+    width: 430px;
+    height: 330px;
+    z-index: 3;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+@media screen and (max-width: 650px){
+    .form{
+        width: 282px;
+        height: 322px;
+        margin-left: -141px;
+    }
+}
