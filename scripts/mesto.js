@@ -1,13 +1,13 @@
 let profName = document.querySelector('.profile__name');
 let profDesc = document.querySelector('.profile__desc');
-let EditButton = document.querySelector('.profile__edit_button');
-let CloseButton = document.querySelector('.form__button_close');
-let SaveButton = document.querySelector('.form__button_save');
+let EditButton = document.querySelector('.profile__button-edit');
+let CloseButton = document.querySelector('.form__button-close');
+let SaveButton = document.querySelector('.form__button-save');
 let overlay = document.querySelector('.overlay');
 let form = document.querySelector('.form');
-let InputProfileName = document.querySelector('.form__profile_name');
+let InputProfileName = document.querySelector('.form__profile-name');
 let ProfileName = document.querySelector('.profile__name');
-let InputProfileDesc = document.querySelector('.form__profile_desc');
+let InputProfileDesc = document.querySelector('.form__profile-desc');
 let ProfileDesc = document.querySelector('.profile__desc');
 function EditProfile(){
     form.setAttribute('style', 'display: flex'); 
