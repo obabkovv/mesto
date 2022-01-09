@@ -1,4 +1,5 @@
 @import url(../styles/normalize.css);
+@import url(../fonts/inter.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/header/header.css);
@@ -20,6 +21,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/overlay/overlay.css);
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__opened/form__opened.css);
 @import url(../blocks/form/__name/form__name.css);
 @import url(../blocks/form/__profile-name/form__profile-name.css);
 @import url(../blocks/form/__profile-desc/form__profile-desc.css);
